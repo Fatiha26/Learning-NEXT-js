@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
       {/* common in every page */}
        <nav>Home | About</nav> 
-
+        <hr />
        {/* page content here in children */}
          {children}
 
