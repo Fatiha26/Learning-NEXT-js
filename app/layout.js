@@ -14,9 +14,11 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
       {/* common in every page */}
        <nav>Home | About</nav> 
-       
+
        {/* page content here in children */}
          {children}
+
+        <footer className="mt-10">Copyright</footer>
       </body>
     </html>
   );
